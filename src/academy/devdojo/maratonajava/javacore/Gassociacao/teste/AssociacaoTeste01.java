@@ -9,7 +9,7 @@ public class AssociacaoTeste01 {
     public static void main(String[] args) {
         Local local = new Local("Rua das Laranjeiras");
         Aluno aluno = new Aluno("Pedro", 23);
-        Aluno[] alunosParaSeminario = {alunos};
+        Aluno[] alunosParaSeminario = {aluno};
         Professor professor = new Professor("Rodolfo", "Psicologia");
 
         Seminario seminario = new Seminario("Psicologia Clínica e Crianças", alunosParaSeminario, local);
