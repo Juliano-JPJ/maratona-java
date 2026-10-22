@@ -2,7 +2,7 @@ package academy.devdojo.maratonajava.introducao;
 
 public class Aula02TiposPrimitivos {
     public static void main(String[] args) {
-        // int, double, float, char, byte, short, long, boolean
+        //TIPOS PRIMITIVOS: int, double, float, char, byte, short, long, boolean
 
         byte idadeByte = 10; // -128 a 127
         short idadeShort = 10; // -32768 a 32767
@@ -13,7 +13,7 @@ public class Aula02TiposPrimitivos {
         boolean casado = true;
         char sexo = 'M';
 
-        //Tipo de referência:
+        //TIPO DE REFERÊNCIA:
 
         String nome = "Maria";
     }
