@@ -9,5 +9,6 @@ public class FuncionarioTeste01 {
         funcionario.setIdade(37);
         funcionario.setSalarios(new double[]{1200, 987.32, 2000});
         funcionario.imprime();
+        System.out.println("Média " + funcionario.getMedia());
     }
 }
